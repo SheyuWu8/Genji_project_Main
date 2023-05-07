@@ -176,7 +176,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0, z: 0}
-  dashDistance: 50
+  dashDistance: 80
   dashStoppingSpeed: 0.1
 --- !u!114 &1995972218
 MonoBehaviour:
@@ -258,9 +258,9 @@ MonoBehaviour:
   jumpForce: 30
   mass: 1
   damping: 6
-  climbSpeed: 10
+  climbSpeed: 20
   wallRaycastDistance: 1
-  edgeUpForce: 15
+  edgeUpForce: 20
   climbTime: 0
   climbChargeSpeed: 1
 --- !u!114 &1995972222
@@ -278,7 +278,7 @@ MonoBehaviour:
   shurikenPrefab: {fileID: 5625807211359754396, guid: e48f03f83d26914459579c9cb366fa51,
     type: 3}
   delayBetweenShurikens: 0.2
-  shurikenLaunchForce: 10
+  shurikenLaunchForce: 20
   projectileSpawnTransforms:
   - {fileID: 1136050254}
   - {fileID: 1265385577}
