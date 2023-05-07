@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0, z: 0}
-  dashDistance: 70
+  dashDistance: 50
   dashStoppingSpeed: 0.1
 --- !u!114 &1995972218
 MonoBehaviour:
