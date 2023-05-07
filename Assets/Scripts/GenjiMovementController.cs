@@ -6,8 +6,8 @@ public class GenjiMovementController : MonoBehaviour
 {
     [SerializeField] private float movementSpeed;
     [SerializeField] private float jumpForce;
-    [SerializeField] private float mass = 1f;
-    [SerializeField] private float damping = 5f;
+    [SerializeField] private float mass;
+    [SerializeField] private float damping;
     [SerializeField] private float climbSpeed;
     [SerializeField] private float wallRaycastDistance;
     [SerializeField] private float edgeUpForce;

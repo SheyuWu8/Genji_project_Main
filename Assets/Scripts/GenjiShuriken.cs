@@ -18,11 +18,7 @@ public class GenjiShuriken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(1))
-        {
-            StartCoroutine(LeftClickAttack());
-        }
-        else if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0))
         {
             foreach(Transform spawnLocation in projectileSpawnTransforms)
             {
